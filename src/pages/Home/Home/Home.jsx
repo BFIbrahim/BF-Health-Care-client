@@ -1,8 +1,9 @@
+import Navigation from "../../../Shared/Navigation/Navigation";
 
 const Home = () => {
     return (
         <div>
-            This Is Home
+            <Navigation></Navigation>
         </div>
     );
 };
