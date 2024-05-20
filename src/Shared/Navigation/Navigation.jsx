@@ -62,7 +62,7 @@ const Navbar = () => {
           <li className="font-semibold text-white"><a href="#">About Us</a></li>
           <li className="font-semibold text-white"><a href="#">Services</a></li>
           <li className="font-semibold text-white"><a href="#">Doctors</a></li>
-          <li className="font-semibold text-white"><a href="#">Appointments</a></li>
+          <li className="font-semibold text-white"><a href="#">Appointment</a></li>
         </ul>
       </div>
       <div className="navbar-end relative">
