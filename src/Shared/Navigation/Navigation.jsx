@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -79,9 +80,9 @@ const Navbar = () => {
             className="absolute right-0 mt-2 w-48 bg-white border rounded shadow-lg"
             style={{ top: '100%' }}  // Position dropdown directly below the profile image
           >
-            <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Login</a>
+            <Link to="/login" href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Login</Link>
             <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Signout</a>
-            <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Profile</a>
+            <Link to="/profile" href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Profile</Link>
             <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-gray-100">Settings</a>
             <button
               className="w-full text-left px-4 py-2 bg-cyan-600 text-white"

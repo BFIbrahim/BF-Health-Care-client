@@ -45,7 +45,7 @@ const Doctors = () => {
                     {doctors.map(doctor => (
                         <SwiperSlide key={doctor._id} className=' rounded-md m-8'>
                             <div>
-                                <img src={doctor.imgUrl} className='w-full h-72 rounded-tr-3xl rounded-bl-3xl' alt="" />
+                                <img src={doctor.imgUrl} className='w-full h-72 rounded-tr-3xl rounded-bl-3xl bg-cover' alt="" />
                                 <h1 className='text-2xl text-start ps-2 font-semibold text-white mt-2'>{doctor.name}</h1>
                                 <ul className='text-start mt-3 ps-2'>
                                     <li><span className='font-semibold'>Specialized: </span>{doctor.specialized}</li>

@@ -38,7 +38,7 @@ const Review = () => {
             >
                 {
                     reviews.map((review) => (
-                        <SwiperSlide className='px-2 text-center  md:px-24 lg:px-24' key={review._id}>
+                        <SwiperSlide className='px-2 text-center md:px-24 lg:px-24' key={review._id}>
                             <img className='w-14 h-14 mx-auto mb-2' src="https://i.ibb.co/ds91DDc/profile.png" alt="" />
                             <h1 className='text-3xl font-semibold mb-3'>{review.name}</h1>
                             <p>{review.message}</p>
